@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.item,
+.loader {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  transform: scale(1.1);
+  transition: transform 0.1s ease-in;
+}
+
+.visible,.loader {
+  transform: scale(1);
+}
